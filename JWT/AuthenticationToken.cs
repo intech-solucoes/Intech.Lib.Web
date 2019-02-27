@@ -89,12 +89,3 @@ namespace Intech.Lib.Web.JWT
         }
     }
 }
-
-namespace System
-{
-    public static class ClaimsExtensions
-    {
-        public static string GetValue(this IEnumerable<Claim> claims, string type)
-            => claims.ToList().SingleOrDefault(x => x.Type == type).Value;
-    }
-}
