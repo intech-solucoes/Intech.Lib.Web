@@ -11,6 +11,8 @@ namespace Intech.Lib.Web
     {
         public static string NomeArquivo = "appsettings.json";
 
+        public string Cliente { get; set; }
+
         public string ConnectionProvider { get; set; }
 
         public string ConnectionString { get; set; }

@@ -5,18 +5,21 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Rony Moura&lt;ronymmoura@gmail.com&gt;</Authors>
     <Company>Intech</Company>
-    <Version>1.0.2</Version>
+    <Version>1.0.4</Version>
     <Product>Intech.Lib.Web</Product>
     <Description>Intech.Lib.Web</Description>
     <PackageId>Intech.Lib.Web</PackageId>
-    <PackageReleaseNotes>Migrando dependências</PackageReleaseNotes>
+    <PackageReleaseNotes>Adicionando cliente no appsettings</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Intech.Lib.Util" Version="1.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Intech.Lib.Util\Intech.Lib.Util.csproj" />
   </ItemGroup>
 
 </Project>
