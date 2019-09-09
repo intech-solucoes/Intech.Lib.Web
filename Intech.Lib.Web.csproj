@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Intech.Lib.Email\Intech.Lib.Email.csproj" />
     <ProjectReference Include="..\Intech.Lib.Util\Intech.Lib.Util.csproj" />
   </ItemGroup>
 

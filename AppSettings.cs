@@ -1,5 +1,5 @@
 ﻿#region Usings
-using Intech.Lib.Util.Email;
+using Intech.Lib.Email;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO; 
